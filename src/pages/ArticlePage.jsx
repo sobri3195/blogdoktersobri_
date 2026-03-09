@@ -47,7 +47,9 @@ export default function ArticlePage() {
         {toc.map((item, idx) => <p key={item.id || idx} className="text-sm text-slate-600">• {item.text}</p>)}
       </section>
       <article className="prose max-w-none rounded-2xl border border-slate-200 bg-white p-6">
-        {article.content.split('\n').map((line, i) => <p key={i}>{line}</p>)}
+        {article.htmlContent
+          ? <div dangerouslySetInnerHTML={{ __html: article.htmlContent }} />
+          : article.content.split('\n').map((line, i) => <p key={i}>{line}</p>)}
       </article>
       <AdSlot label="AdSense - Tengah Artikel" className="my-4" />
       <section className="rounded-2xl border border-slate-200 bg-white p-6">

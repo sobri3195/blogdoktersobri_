@@ -10,3 +10,11 @@ body {
 .container-page {
   @apply mx-auto max-w-6xl px-4;
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  @apply bg-cyan-100 text-cyan-900;
+}

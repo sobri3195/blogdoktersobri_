@@ -10,9 +10,9 @@ export const categories = [
 
 export const articles = [
   {
-    title: 'Mulai Investasi Saham Luar Negeri dan Emas Crypto di HP: Kajian Akses, Research Gap Investor Pemula, dan Peran Pintu untuk Modal Kecil',
+    title: 'Mulai Investasi Saham Luar Negeri dan Emas Crypto di HP: Panduan Menarik untuk Pemula Modal Kecil',
     slug: 'mulai-investasi-saham-dan-emas-crypto-di-hp-untuk-pemula',
-    excerpt: 'Kajian formal tentang saham tertokenisasi dan emas crypto, research gap investor pemula, serta peran Pintu untuk investasi online dengan modal kecil.',
+    excerpt: 'Panduan praktis dan formal untuk pemula memahami saham tertokenisasi dan emas crypto di HP, lengkap dengan langkah mulai, strategi sederhana, dan tautan referensi wajib.',
     featuredImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80',
     category: 'Edukasi Finansial',
     tags: ['investasi online', 'saham luar negeri', 'emas crypto', 'pemula'],
@@ -21,35 +21,52 @@ export const articles = [
     updatedDate: '2026-03-09',
     popularScore: 98,
     faq: [
-      { q: 'Apakah investasi di HP cocok untuk pemula?', a: 'Cocok, selama dimulai bertahap, memahami risiko, dan menggunakan platform yang menyediakan edukasi.' },
-      { q: 'Apakah modal kecil bisa mulai investasi?', a: 'Bisa. Fokus utama pemula adalah membangun kebiasaan dan disiplin, bukan langsung mengejar hasil besar.' }
+      { q: 'Apakah investasi di HP cocok untuk pemula?', a: 'Cocok, terutama jika dimulai kecil, fokus belajar dasar risiko, dan dilakukan bertahap dengan evaluasi rutin.' },
+      { q: 'Bagaimana cara agar tidak impulsif saat mulai investasi?', a: 'Tentukan tujuan, atur nominal tetap bulanan, hindari keputusan karena FOMO, dan lakukan review berkala.' }
     ],
-    content: `## Pendahuluan\nInvestasi digital kini semakin mudah diakses, tetapi kualitas pengalaman belajar pengguna tetap menjadi faktor utama untuk pemula.\n\n## Kajian\nSaham tertokenisasi dan emas crypto relevan sebagai jembatan antara aset yang familiar dan inovasi digital.\n\n## Research Gap\nBanyak konten investasi terlalu teknis atau terlalu promosi, sehingga belum menjawab kebutuhan belajar pemula secara realistis.\n\n## Novelty\nPlatform investasi perlu dipahami sebagai ekosistem transisi dari ingin tahu menjadi mampu bertindak, bukan sekadar alat transaksi.\n\n## Aplikasi Praktis\nPemula dapat memulai dari observasi, nominal terbatas, evaluasi berkala, dan membangun kebiasaan investasi yang disiplin.`,
-    htmlContent: `<p class="subtitle"><em>Versi upload-ready untuk blog, dilengkapi placeholder gambar, hyperlink anchor text wajib, dan catatan SEO.</em></p>
-<p><strong>Catatan:</strong> Artikel ini sudah memuat lima anchor text wajib dan tiga placeholder gambar. Tinggal ganti placeholder dengan gambar final lalu paste/upload ke CMS Anda.</p>
+    content: `## Pendahuluan
+Investasi kini bisa dimulai langsung dari HP, tetapi pemula tetap membutuhkan alur belajar yang jelas agar keputusan lebih konsisten dan tidak impulsif.
+
+## Kenapa Relevan
+Saham tertokenisasi memberi akses eksposur global, sementara emas crypto menawarkan pendekatan diversifikasi yang lebih familiar.
+
+## Research Gap
+Banyak konten investasi terlalu teknis atau terlalu promosi, sehingga belum membimbing pemula dari tahap observasi ke kebiasaan.
+
+## Aksi Praktis
+Mulai dari nominal kecil, pantau aset prioritas, manfaatkan edukasi platform, dan evaluasi rutin agar belajar tetap terarah.`,
+    htmlContent: `<p><em>Artikel ini disusun agar mudah dibaca, menarik untuk pemula, dan siap tayang di blog tanpa perlu banyak penyesuaian.</em></p>
 <h2>Pendahuluan</h2>
-<p>Perkembangan teknologi finansial telah mengubah cara masyarakat memandang investasi. Aktivitas yang dahulu terasa eksklusif, rumit, dan identik dengan modal besar kini dapat diakses secara lebih praktis, serba online, dan langsung dari perangkat pribadi.</p>
-<p>Dalam konteks tersebut, kebutuhan terhadap platform yang mudah dipahami menjadi semakin relevan, terutama bagi investor untuk pemula yang ingin memulai secara bertahap.</p>
-<p><strong>TEMPAT GAMBAR 1</strong> — Ilustrasi investasi online di smartphone dengan tampilan dashboard aset.</p>
-<h2>Kajian: Investasi Digital Bukan Lagi Soal Akses, tetapi Soal Kualitas Pengalaman</h2>
-<p>Kajian paling mendasar dalam investasi digital hari ini adalah bahwa kemudahan akses belum tentu berujung pada keputusan yang berkualitas.</p>
-<p>Saham tertokenisasi menarik karena membuka pembahasan baru tentang bagaimana masyarakat memandang saham luar negeri dalam format yang lebih dekat dengan ekosistem aset digital.</p>
-<h2>Research Gap: Yang Sering Hilang dari Konten Investasi untuk Pemula</h2>
-<p>Sebagian besar artikel investasi cenderung terlalu teknis atau terlalu promosi. Celah inilah yang menjadi research gap utama dalam diskursus investasi digital.</p>
-<p><strong>TEMPAT GAMBAR 2</strong> — Diagram alur registrasi, KYC, eksplorasi market, konsumsi edukasi, lalu monitoring portofolio.</p>
-<h2>Novelty: Melihat Platform Investasi sebagai Ekosistem Transisi, Bukan Sekadar Alat Transaksi</h2>
-<p>Kebaruan artikel ini terletak pada cara melihat platform investasi sebagai ruang transisi dari “ingin tahu” menuju “mampu bertindak”.</p>
-<h2>Pembahasan: Peran Pintu dalam Membangun Jalur Belajar yang Lebih Praktis</h2>
-<p>Pintu relevan sebagai ekosistem yang menghubungkan akses market, fitur akumulasi rutin, materi edukasi, dan pembaruan informasi dalam satu jalur.</p>
-<p><strong>TEMPAT GAMBAR 3</strong> — Ilustrasi hubungan antara market, edukasi, dan fitur nabung rutin dalam satu ekosistem.</p>
-<h2>Aplikasi Praktis bagi Investor Pemula: Dari Observasi ke Kebiasaan</h2>
-<p>Mulai dengan memantau <a href="https://pintu.co.id/market/nvdax">harga saham nvidia</a> untuk pembacaan awal terhadap dinamika aset terkait teknologi global.</p>
-<p>Untuk aset emas digital, tinjau <a href="https://pintu.co.id/market/paxg">harga paxg</a> sebagai bagian dari pembelajaran diversifikasi.</p>
-<p>Untuk konteks produk, lihat halaman <a href="https://pintu.co.id/aplikasi-investasi-emas-crypto">beli emas</a> sebagai pintu masuk praktis.</p>
-<p>Dari sisi kepercayaan, pelajari referensi <a href="https://pintu.co.id/aplikasi-crypto-aman">aplikasi crypto aman</a> sebelum menempatkan dana pertama.</p>
-<p>Seluruh akses tersebut terhubung melalui <a href="https://pintu.co.id">pintu</a> sebagai ekosistem market, informasi, dan pengalaman belajar.</p>
+<p>Perkembangan teknologi finansial membuat investasi tidak lagi identik dengan proses yang rumit. Kini, siapa pun bisa memulai dari perangkat yang paling dekat dengan keseharian: HP. Namun, akses yang mudah saja tidak cukup. Bagi pemula, tantangan terbesar justru terletak pada memahami langkah awal, mengelola ekspektasi, serta menjaga disiplin agar tidak sekadar ikut tren sesaat.</p>
+<p>Karena itu, pembahasan saham tertokenisasi dan emas crypto menjadi relevan. Keduanya menawarkan jembatan antara inovasi digital dan aset yang relatif familiar. Saham merepresentasikan peluang pertumbuhan, sementara emas dikenal sebagai instrumen diversifikasi. Saat kedua pendekatan ini tersedia dalam pengalaman aplikasi yang sederhana, peluang partisipasi investor baru menjadi lebih besar.</p>
+<figure>
+  <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" alt="Ilustrasi investasi online di smartphone" loading="lazy" />
+  <figcaption>Gambar 1. Investasi digital kini dapat dipantau langsung melalui smartphone.</figcaption>
+</figure>
+<h2>Kajian: Akses Mudah Harus Diikuti Kualitas Pengalaman</h2>
+<p>Fenomena utama investasi digital hari ini adalah pergeseran fokus dari sekadar akses menuju kualitas pengalaman pengguna. Platform yang baik tidak hanya membuka pintu transaksi, tetapi juga membantu pengguna memahami konteks keputusan: apa yang dibeli, mengapa dipilih, dan bagaimana mengelola risiko secara proporsional.</p>
+<p>Bagi investor pemula, pengalaman awal sangat menentukan. Mereka belum membutuhkan strategi kompleks, melainkan struktur belajar yang masuk akal: observasi, memahami istilah dasar, mencoba nominal terbatas, lalu membentuk kebiasaan. Dalam kerangka ini, saham tertokenisasi dan emas crypto dapat menjadi instrumen awal yang menarik untuk membangun literasi finansial digital secara bertahap.</p>
+<h2>Research Gap: Konten Banyak, Panduan Bertahap Masih Kurang</h2>
+<p>Masih banyak konten investasi yang bergerak di dua kutub ekstrem: terlalu teknis atau terlalu promosi. Akibatnya, pemula sering memahami definisi produk tetapi kebingungan saat harus mengambil keputusan kecil pertama. Inilah research gap yang penting: minimnya konten yang menjembatani pengetahuan, perilaku pengguna baru, dan praktik investasi yang realistis.</p>
+<p>Yang paling dibutuhkan pemula adalah alur yang dapat dijalankan: kenali produk, pahami risiko, uji nominal kecil, lalu evaluasi. Pendekatan ini membantu pengguna bertumbuh secara konsisten tanpa tekanan untuk “cepat cuan”.</p>
+<figure>
+  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80" alt="Diagram alur belajar investasi dari registrasi hingga monitoring" loading="lazy" />
+  <figcaption>Gambar 2. Alur belajar investasi pemula: registrasi, eksplorasi, edukasi, dan monitoring rutin.</figcaption>
+</figure>
+<h2>Peran Pintu: Ekosistem Belajar, Bukan Hanya Tempat Transaksi</h2>
+<p>Dari sudut pandang pemula, nilai utama platform investasi terletak pada kemampuannya menjadi ekosistem belajar. Akses market, fitur nabung rutin (DCA), materi edukasi, dan pembaruan pasar dalam satu aplikasi membuat proses belajar terasa lebih ringan dan berkelanjutan. Pendekatan inilah yang membuat pengguna tidak berhenti di tahap “penasaran”, tetapi bisa naik ke tahap “paham dan bertindak”.</p>
+<h2>Aplikasi Praktis: Dari Observasi ke Kebiasaan</h2>
+<p>Langkah yang paling sehat bagi pemula adalah memulai dari observasi. Anda bisa memantau <a href="https://pintu.co.id/market/nvdax">harga saham nvidia</a> untuk memahami dinamika aset terkait sektor teknologi global.</p>
+<p>Untuk diversifikasi berbasis emas digital, amati <a href="https://pintu.co.id/market/paxg">harga paxg</a> dan pelajari bagaimana aset ini diposisikan dalam strategi alokasi sederhana.</p>
+<p>Jika ingin mulai dari jalur praktis, halaman <a href="https://pintu.co.id/aplikasi-investasi-emas-crypto">beli emas</a> dapat menjadi titik awal memahami produk dan prosesnya.</p>
+<p>Dari sisi keamanan dan kenyamanan, referensi tentang <a href="https://pintu.co.id/aplikasi-crypto-aman">aplikasi crypto aman</a> penting untuk membangun kepercayaan sebelum menempatkan dana.</p>
+<p>Semua jalur tersebut terintegrasi dalam <a href="https://pintu.co.id">pintu</a> sebagai ekosistem market, edukasi, dan pemantauan aset.</p>
+<figure>
+  <img src="https://images.unsplash.com/photo-1638913662380-979b7f2a4f95?auto=format&fit=crop&w=1200&q=80" alt="Integrasi market, edukasi, dan nabung rutin dalam satu aplikasi" loading="lazy" />
+  <figcaption>Gambar 3. Integrasi akses produk, edukasi, dan rutinitas investasi dalam satu ekosistem.</figcaption>
+</figure>
 <h2>Kesimpulan</h2>
-<p>Investasi digital makin inklusif, namun kualitas pengalaman belajar tetap kunci. Pendekatan bertahap, disiplin, dan berbasis edukasi membuat pemula lebih siap membangun konsistensi jangka panjang.</p>`
+<p>Investasi digital membuka peluang yang lebih inklusif bagi masyarakat luas. Namun, hasil jangka panjang tidak ditentukan oleh kemudahan akses semata, melainkan oleh kualitas pengalaman belajar. Dengan memulai kecil, konsisten belajar, dan menggunakan platform yang mendukung edukasi, pemula dapat membangun kebiasaan investasi yang lebih sehat dan berkelanjutan.</p>`
   },
   {
     title: 'Pusing dan Mual: Kapan Masih Wajar, Kapan Harus ke Dokter?',

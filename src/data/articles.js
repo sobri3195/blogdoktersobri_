@@ -191,6 +191,116 @@ const generatedOncologyArticles = oncologyTopics.map((topic, index) => ({
 
 export const articles = [
   {
+    title: 'Pancreatic Cancer in 2026: Early Symptoms, CA 19-9 Limits, and Stage-Based Treatment Strategy',
+    slug: 'pancreatic-cancer-early-symptoms-ca19-9-stage-based-treatment-strategy',
+    excerpt: 'An in-depth, SEO-focused guide for international readers on pancreatic cancer warning signs, diagnostics, treatment pathways, and practical decision-making with evidence-based references.',
+    featuredImage: 'https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?auto=format&fit=crop&w=1200&q=80',
+    category: 'Cancer Care',
+    tags: ['pancreatic cancer symptoms', 'CA 19-9', 'oncology guide', 'global health', 'cancer treatment'],
+    author: 'dr. Sobri Oncology Editorial Team',
+    publishDate: '2026-03-11',
+    updatedDate: '2026-03-11',
+    popularScore: 99,
+    faq: [
+      {
+        q: 'Can pancreatic cancer be cured if found early?',
+        a: 'Yes, some early-stage cases can be treated with curative intent, especially when surgery is feasible and combined with systemic therapy.'
+      },
+      {
+        q: 'Is CA 19-9 enough to diagnose pancreatic cancer?',
+        a: 'No. CA 19-9 is a supportive biomarker and must be interpreted with imaging, pathology, and clinical context.'
+      }
+    ],
+    content: `## Overview
+This comprehensive guide explains pancreatic cancer from symptoms to treatment planning for global readers.
+
+## Clinical Analysis
+It covers risk factors, diagnostic tools, CA 19-9 limitations, stage-based treatment, and survivorship.
+
+## Practical Takeaway
+Early evaluation, multidisciplinary care, and evidence-based decisions improve outcomes.`,
+    htmlContent: `<p><em>Medical disclaimer:</em> This article is educational and written for international readers. It does not replace direct consultation with an oncologist, gastroenterologist, surgeon, or your local cancer center.</p>
+<h2>Pancreatic Cancer: Why This Topic Matters Globally</h2>
+<p>Pancreatic cancer remains one of the most challenging cancers in modern medicine, not because progress is absent, but because diagnosis often comes late. Many patients initially experience subtle symptoms such as persistent upper abdominal discomfort, unexplained weight loss, reduced appetite, new-onset diabetes after age 50, jaundice, dark urine, or unusual fatigue. These complaints can be mistaken for common digestive disorders, delaying critical evaluation. For readers in North America, Europe, the Middle East, Asia-Pacific, and Africa, the central issue is the same: early suspicion and fast referral can significantly alter treatment options.</p>
+<p>From a public-health perspective, pancreatic cancer burden is increasing in many countries due to population aging, smoking exposure history, obesity, chronic pancreatitis, diabetes prevalence, and better reporting systems. This does not mean every person with digestive symptoms has cancer. It means clinicians and patients should apply risk-stratified thinking. A symptom that persists, worsens, or clusters with warning features should not be ignored. Early imaging and targeted follow-up may detect potentially resectable disease before metastatic spread.</p>
+<figure>
+  <img src="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?auto=format&fit=crop&w=1200&q=80" alt="Oncology specialist reviewing pancreatic imaging and treatment pathway" loading="lazy" />
+  <figcaption>Figure 1. Multidisciplinary review of imaging, pathology, and patient status is essential in pancreatic cancer care.</figcaption>
+</figure>
+<h2>Clinical Analysis: Risk, Biology, and Why Timing Is Everything</h2>
+<p>Pancreatic ductal adenocarcinoma (PDAC) is the most common pancreatic malignancy. Its biology is often aggressive, and micrometastatic disease may exist before obvious radiologic spread. This is why timing is central: every delay between suspicion, imaging, biopsy, and definitive treatment can reduce the window for curative intervention. However, speed alone is not enough. Fast but incomplete workup leads to suboptimal decisions. The goal is <strong>rapid and accurate staging</strong>.</p>
+<p>Major risk factors include tobacco exposure, obesity, long-standing diabetes, chronic pancreatitis, heavy alcohol use, and family history. Some patients carry germline mutations (for example BRCA1/2, PALB2, ATM, or mismatch-repair-related genes) that affect both risk and treatment strategy. For this reason, many international guidelines now encourage broader genetic counseling and testing in eligible patients. Molecular profiling is not only for advanced disease; it can influence clinical trial eligibility and first-line planning.</p>
+<p>A frequent misconception is that one blood test can confirm pancreatic cancer. In reality, CA 19-9 has important limitations. It can be elevated in non-cancer conditions such as cholestasis, cholangitis, or pancreatitis. It can also be normal in some cancer patients, including Lewis antigen-negative individuals who do not express CA 19-9. Therefore, clinicians use CA 19-9 as a <em>trend-supporting marker</em>, not a standalone diagnostic endpoint.</p>
+<h2>How Diagnosis Should Be Structured in Real-World Settings</h2>
+<p>A practical and evidence-based diagnostic pathway usually includes multiphase contrast-enhanced CT pancreas protocol as first-line imaging, often followed by MRI/MRCP in selected cases. Endoscopic ultrasound (EUS) with fine-needle biopsy provides tissue confirmation and can be crucial when imaging is equivocal or treatment selection requires histology. Pathology quality matters: subtype confirmation and molecular context can guide downstream therapy choices.</p>
+<p>Staging generally categorizes disease into resectable, borderline resectable, locally advanced unresectable, or metastatic. This classification directly determines treatment strategy. In high-volume centers, decisions are made in multidisciplinary tumor boards including surgical oncology, medical oncology, radiation oncology, radiology, pathology, palliative care, nutrition, and supportive services. For international readers, this team model is one of the strongest predictors of coherent care.</p>
+<h3>Table: Stage-Based Strategy and Decision Priorities in Pancreatic Cancer</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Disease category</th>
+      <th>Primary goal</th>
+      <th>Typical evidence-based approach</th>
+      <th>Key discussion points for patients</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Resectable</td>
+      <td>Curative intent</td>
+      <td>Surgery plus perioperative/adjuvant chemotherapy based on performance status and pathology</td>
+      <td>Center experience, surgical risk, pathology timeline, recovery planning</td>
+    </tr>
+    <tr>
+      <td>Borderline resectable</td>
+      <td>Increase R0 resection probability</td>
+      <td>Neoadjuvant systemic therapy ± radiation, then restaging for surgery candidacy</td>
+      <td>Response metrics, vascular involvement, timing for operative decision</td>
+    </tr>
+    <tr>
+      <td>Locally advanced unresectable</td>
+      <td>Disease control and symptom prevention</td>
+      <td>Systemic therapy, selective chemoradiation, aggressive supportive care</td>
+      <td>Pain strategy, nutritional status, biliary/gastric obstruction management</td>
+    </tr>
+    <tr>
+      <td>Metastatic</td>
+      <td>Prolong survival and preserve quality of life</td>
+      <td>First-line chemotherapy by fitness profile, molecularly guided options, palliative integration from early phase</td>
+      <td>Treatment goals, toxicity monitoring, trial options, home support logistics</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Treatment in 2026: Precision, Sequencing, and Supportive Care</h2>
+<p>Therapeutic planning depends on performance status, organ function, comorbid disease, molecular profile, and patient preferences. In fit patients, multi-agent chemotherapy regimens may improve disease control but carry toxicity burdens that require close monitoring. In older or frailer patients, modified dosing or alternative regimens may better balance benefit and safety. There is no universally “best” regimen; good oncology care means individualized sequencing with transparent goals.</p>
+<p>For selected molecular subgroups, targeted therapies and biomarker-driven strategies can be relevant, especially in later lines or clinical trial pathways. Although these populations are smaller, testing remains important because actionable findings can change outcomes for specific patients. Equally important is early palliative and supportive care: pain management, nutritional intervention, glycemic control, thrombosis risk management, psychosocial support, and proactive symptom reporting often determine whether patients can continue treatment safely.</p>
+<p>Nutrition deserves specific emphasis. Pancreatic cancer can cause anorexia, malabsorption, and rapid muscle loss. Dietitian-guided plans, pancreatic enzyme replacement when indicated, and structured caloric-protein targets can improve resilience during therapy. Families should not underestimate practical preparation: transport, appointment coordination, medication schedules, and emergency contact protocols prevent avoidable treatment interruptions.</p>
+<h2>International Patient Checklist: What to Ask Your Team</h2>
+<p>To improve decision quality, patients and caregivers can use a short but structured checklist during consultations:</p>
+<ul>
+  <li>What is the exact stage and resectability category right now?</li>
+  <li>Was my case reviewed by a multidisciplinary tumor board?</li>
+  <li>Do I need EUS-guided biopsy, repeat imaging, or second pathology review?</li>
+  <li>How should CA 19-9 be interpreted in my individual case?</li>
+  <li>Should I receive germline and/or somatic molecular testing?</li>
+  <li>What is the treatment intent: cure, control, or symptom-focused care?</li>
+  <li>What toxicities are most likely, and when should I call urgently?</li>
+  <li>Are there clinical trials suitable for my stage and profile?</li>
+</ul>
+<p>These questions improve clarity, reduce confusion, and support shared decision-making. High-quality cancer care is not passive; informed patients contribute to safer and more consistent care pathways.</p>
+<h2>Conclusion</h2>
+<p>Pancreatic cancer is serious, but not hopeless. Outcomes improve when warning signs are recognized early, diagnostics are complete, staging is precise, and treatment is coordinated by multidisciplinary teams. For global audiences, the practical priority is clear: do not wait with persistent red-flag symptoms, seek structured oncology evaluation, and insist on evidence-based planning that integrates both survival and quality-of-life goals.</p>
+<h2>References</h2>
+<ul>
+  <li><a href="https://www.who.int/news-room/fact-sheets/detail/cancer">World Health Organization (WHO): Cancer Fact Sheet</a></li>
+  <li><a href="https://www.cancer.gov/types/pancreatic">National Cancer Institute: Pancreatic Cancer</a></li>
+  <li><a href="https://www.nccn.org/guidelines/category_1">NCCN Clinical Practice Guidelines in Oncology</a></li>
+  <li><a href="https://www.asco.org/practice-patients/guidelines">American Society of Clinical Oncology (ASCO) Guidelines</a></li>
+  <li><a href="https://www.esmo.org/guidelines/gastrointestinal-cancers/pancreatic-cancer">ESMO Guidelines: Pancreatic Cancer</a></li>
+  <li><a href="https://www.iarc.who.int/">International Agency for Research on Cancer (IARC)</a></li>
+</ul>`
+  },
+  {
     title: 'Start Investing in Tokenized Global Stocks and Crypto Gold on Mobile: A Practical Beginner Guide',
     slug: 'start-investing-tokenized-stocks-and-crypto-gold-on-mobile',
     excerpt: 'A practical beginner guide to understanding tokenized stocks and crypto gold from your phone, including first steps, simple strategy, and must-read references.',

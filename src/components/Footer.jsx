@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container-page grid gap-5 text-sm text-slate-600 md:grid-cols-2">
         <div>
           <BrandLogo compact />
-          <p className="mt-3 max-w-md">© {new Date().getFullYear()} blogdoktersobri. Konten disusun untuk edukasi dan bukan pengganti diagnosis medis profesional.</p>
+          <p className="mt-3 max-w-md">© {new Date().getFullYear()} blogdoktersobri. Content is prepared for education and is not a substitute for professional medical diagnosis.</p>
         </div>
         <div className="flex flex-wrap items-start gap-3 md:justify-end">
           <Link to="/privacy-policy">Privacy</Link>

@@ -14,13 +14,13 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<ArticlePage />} />
-        <Route path="/kategori/:slug" element={<TaxonomyPage mode="category" />} />
+        <Route path="/category/:slug" element={<TaxonomyPage mode="category" />} />
         <Route path="/tag/:slug" element={<TaxonomyPage mode="tag" />} />
-        <Route path="/about" element={<SimplePage title="About" description="Tentang blogdoktersobri" path="/about">blogdoktersobri adalah media edukasi kesehatan berbasis artikel informatif dan praktis untuk masyarakat umum.</SimplePage>} />
-        <Route path="/contact" element={<SimplePage title="Contact" description="Kontak redaksi blogdoktersobri" path="/contact">Email: redaksi@blogdoktersobri.com</SimplePage>} />
-        <Route path="/privacy-policy" element={<SimplePage title="Privacy Policy" description="Kebijakan privasi" path="/privacy-policy">Kami menjaga data pengguna secara transparan dan sesuai regulasi.</SimplePage>} />
-        <Route path="/disclaimer" element={<SimplePage title="Disclaimer" description="Disclaimer medis" path="/disclaimer">Konten bersifat edukatif, bukan pengganti konsultasi medis profesional.</SimplePage>} />
-        <Route path="/terms" element={<SimplePage title="Terms of Service" description="Syarat layanan" path="/terms">Dengan menggunakan situs ini, Anda menyetujui syarat penggunaan yang berlaku.</SimplePage>} />
+        <Route path="/about" element={<SimplePage title="About" description="About blogdoktersobri" path="/about">blogdoktersobri is a health education media platform with informative and practical articles for the general public.</SimplePage>} />
+        <Route path="/contact" element={<SimplePage title="Contact" description="blogdoktersobri editorial contact" path="/contact">Email: redaksi@blogdoktersobri.com</SimplePage>} />
+        <Route path="/privacy-policy" element={<SimplePage title="Privacy Policy" description="Privacy policy" path="/privacy-policy">We handle user data transparently and in accordance with applicable regulations.</SimplePage>} />
+        <Route path="/disclaimer" element={<SimplePage title="Disclaimer" description="Medical disclaimer" path="/disclaimer">This content is educational and not a substitute for professional medical consultation.</SimplePage>} />
+        <Route path="/terms" element={<SimplePage title="Terms of Service" description="Terms of service" path="/terms">By using this site, you agree to the applicable terms of use.</SimplePage>} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </MainLayout>

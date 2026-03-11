@@ -1,116 +1,110 @@
 export const categories = [
-  'Gejala Umum',
-  'Gaya Hidup Sehat',
-  'Kesehatan Keluarga',
-  'Edukasi Obat',
-  'Pertolongan Pertama',
-  'Mitos vs Fakta',
-  'Edukasi Finansial'
+  'Common Symptoms',
+  'Healthy Lifestyle',
+  'Family Health',
+  'Medication Education',
+  'First Aid',
+  'Myth vs Fact',
+  'Financial Education'
 ];
 
 export const articles = [
   {
-    title: 'Mulai Investasi Saham Luar Negeri dan Emas Crypto di HP: Panduan Menarik untuk Pemula Modal Kecil',
-    slug: 'mulai-investasi-saham-dan-emas-crypto-di-hp-untuk-pemula',
-    excerpt: 'Panduan praktis dan formal untuk pemula memahami saham tertokenisasi dan emas crypto di HP, lengkap dengan langkah mulai, strategi sederhana, dan tautan referensi wajib.',
+    title: 'Start Investing in Tokenized Global Stocks and Crypto Gold on Mobile: A Practical Beginner Guide',
+    slug: 'start-investing-tokenized-stocks-and-crypto-gold-on-mobile',
+    excerpt: 'A practical beginner guide to understanding tokenized stocks and crypto gold from your phone, including first steps, simple strategy, and must-read references.',
     featuredImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80',
-    category: 'Edukasi Finansial',
-    tags: ['investasi online', 'saham luar negeri', 'emas crypto', 'pemula'],
-    author: 'Tim Editorial',
+    category: 'Financial Education',
+    tags: ['online investing', 'global stocks', 'crypto gold', 'beginners'],
+    author: 'Editorial Team',
     publishDate: '2026-03-09',
     updatedDate: '2026-03-09',
     popularScore: 98,
     faq: [
-      { q: 'Apakah investasi di HP cocok untuk pemula?', a: 'Cocok, terutama jika dimulai kecil, fokus belajar dasar risiko, dan dilakukan bertahap dengan evaluasi rutin.' },
-      { q: 'Bagaimana cara agar tidak impulsif saat mulai investasi?', a: 'Tentukan tujuan, atur nominal tetap bulanan, hindari keputusan karena FOMO, dan lakukan review berkala.' }
+      { q: 'Is mobile investing suitable for beginners?', a: 'Yes, especially when you start small, learn risk basics, and improve your approach gradually.' },
+      { q: 'How can I avoid impulsive decisions when starting to invest?', a: 'Set clear goals, automate a fixed monthly amount, avoid FOMO-based choices, and review your strategy regularly.' }
     ],
-    content: `## Pendahuluan
-Investasi kini bisa dimulai langsung dari HP, tetapi pemula tetap membutuhkan alur belajar yang jelas agar keputusan lebih konsisten dan tidak impulsif.
+    content: `## Introduction
+Today, investing can start directly from a phone, but beginners still need a clear learning path to make consistent and rational decisions.
 
-## Kenapa Relevan
-Saham tertokenisasi memberi akses eksposur global, sementara emas crypto menawarkan pendekatan diversifikasi yang lebih familiar.
+## Why It Matters
+Tokenized stocks provide global exposure, while crypto gold offers a familiar diversification approach.
 
 ## Research Gap
-Banyak konten investasi terlalu teknis atau terlalu promosi, sehingga belum membimbing pemula dari tahap observasi ke kebiasaan.
+Many investing articles are either too technical or too promotional, so beginners still struggle to move from curiosity to disciplined habits.
 
-## Aksi Praktis
-Mulai dari nominal kecil, pantau aset prioritas, manfaatkan edukasi platform, dan evaluasi rutin agar belajar tetap terarah.`,
-    htmlContent: `<p><em>Artikel ini disusun agar mudah dibaca, menarik untuk pemula, dan siap tayang di blog tanpa perlu banyak penyesuaian.</em></p>
-<h2>Pendahuluan</h2>
-<p>Perkembangan teknologi finansial membuat investasi tidak lagi identik dengan proses yang rumit. Kini, siapa pun bisa memulai dari perangkat yang paling dekat dengan keseharian: HP. Namun, akses yang mudah saja tidak cukup. Bagi pemula, tantangan terbesar justru terletak pada memahami langkah awal, mengelola ekspektasi, serta menjaga disiplin agar tidak sekadar ikut tren sesaat.</p>
-<p>Karena itu, pembahasan saham tertokenisasi dan emas crypto menjadi relevan. Keduanya menawarkan jembatan antara inovasi digital dan aset yang relatif familiar. Saham merepresentasikan peluang pertumbuhan, sementara emas dikenal sebagai instrumen diversifikasi. Saat kedua pendekatan ini tersedia dalam pengalaman aplikasi yang sederhana, peluang partisipasi investor baru menjadi lebih besar.</p>
+## Practical Actions
+Start with a small amount, monitor priority assets, use platform education features, and run routine evaluations to keep learning focused.`,
+    htmlContent: `<p><em>This article is written to be easy to read, beginner-friendly, and ready for publication with minimal edits.</em></p>
+<h2>Introduction</h2>
+<p>Financial technology has made investing more accessible than ever. Today, anyone can begin using the device they already use daily: a smartphone. However, easy access alone is not enough. For beginners, the bigger challenge is understanding first steps, managing expectations, and building consistency instead of following short-term hype.</p>
+<p>This is why tokenized global stocks and crypto gold are relevant topics. They bridge digital innovation with assets that are easier to understand. Stocks represent growth potential, while gold is often associated with portfolio stability and diversification.</p>
 <figure>
-  <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" alt="Ilustrasi investasi online di smartphone" loading="lazy" />
-  <figcaption>Gambar 1. Investasi digital kini dapat dipantau langsung melalui smartphone.</figcaption>
+  <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" alt="Online investing illustration on a smartphone" loading="lazy" />
+  <figcaption>Figure 1. Digital investments can now be monitored directly from a smartphone.</figcaption>
 </figure>
-<h2>Kajian: Akses Mudah Harus Diikuti Kualitas Pengalaman</h2>
-<p>Fenomena utama investasi digital hari ini adalah pergeseran fokus dari sekadar akses menuju kualitas pengalaman pengguna. Platform yang baik tidak hanya membuka pintu transaksi, tetapi juga membantu pengguna memahami konteks keputusan: apa yang dibeli, mengapa dipilih, dan bagaimana mengelola risiko secara proporsional.</p>
-<p>Bagi investor pemula, pengalaman awal sangat menentukan. Mereka belum membutuhkan strategi kompleks, melainkan struktur belajar yang masuk akal: observasi, memahami istilah dasar, mencoba nominal terbatas, lalu membentuk kebiasaan. Dalam kerangka ini, saham tertokenisasi dan emas crypto dapat menjadi instrumen awal yang menarik untuk membangun literasi finansial digital secara bertahap.</p>
-<h2>Research Gap: Konten Banyak, Panduan Bertahap Masih Kurang</h2>
-<p>Masih banyak konten investasi yang bergerak di dua kutub ekstrem: terlalu teknis atau terlalu promosi. Akibatnya, pemula sering memahami definisi produk tetapi kebingungan saat harus mengambil keputusan kecil pertama. Inilah research gap yang penting: minimnya konten yang menjembatani pengetahuan, perilaku pengguna baru, dan praktik investasi yang realistis.</p>
-<p>Yang paling dibutuhkan pemula adalah alur yang dapat dijalankan: kenali produk, pahami risiko, uji nominal kecil, lalu evaluasi. Pendekatan ini membantu pengguna bertumbuh secara konsisten tanpa tekanan untuk “cepat cuan”.</p>
+<h2>Review: Better Access Must Be Matched by Better User Experience</h2>
+<p>The key shift in digital investing is moving from simple access to quality experience. A strong platform should not only enable transactions, but also help users understand what they are buying, why it fits their goal, and how to manage risk proportionally.</p>
+<p>For beginners, the early experience is critical. Most do not need complex strategies yet. They need a realistic structure: observe the market, learn key terms, test with a small amount, and build repeatable habits.</p>
+<h2>Research Gap: Plenty of Content, Limited Step-by-Step Guidance</h2>
+<p>Many investment contents sit at two extremes: too technical or too promotional. As a result, beginners may understand product definitions but still feel unsure when making their first small decision.</p>
+<p>What beginners need most is an actionable sequence: understand the product, map the risk, test a small amount, and evaluate consistently.</p>
 <figure>
-  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80" alt="Diagram alur belajar investasi dari registrasi hingga monitoring" loading="lazy" />
-  <figcaption>Gambar 2. Alur belajar investasi pemula: registrasi, eksplorasi, edukasi, dan monitoring rutin.</figcaption>
+  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80" alt="Investment learning flow from registration to monitoring" loading="lazy" />
+  <figcaption>Figure 2. Beginner investing flow: registration, exploration, education, and routine monitoring.</figcaption>
 </figure>
-<h2>Peran Pintu: Ekosistem Belajar, Bukan Hanya Tempat Transaksi</h2>
-<p>Dari sudut pandang pemula, nilai utama platform investasi terletak pada kemampuannya menjadi ekosistem belajar. Akses market, fitur nabung rutin (DCA), materi edukasi, dan pembaruan pasar dalam satu aplikasi membuat proses belajar terasa lebih ringan dan berkelanjutan. Pendekatan inilah yang membuat pengguna tidak berhenti di tahap “penasaran”, tetapi bisa naik ke tahap “paham dan bertindak”.</p>
-<h2>Aplikasi Praktis: Dari Observasi ke Kebiasaan</h2>
-<p>Langkah yang paling sehat bagi pemula adalah memulai dari observasi. Anda bisa memantau <a href="https://pintu.co.id/market/nvdax">harga saham nvidia</a> untuk memahami dinamika aset terkait sektor teknologi global.</p>
-<p>Untuk diversifikasi berbasis emas digital, amati <a href="https://pintu.co.id/market/paxg">harga paxg</a> dan pelajari bagaimana aset ini diposisikan dalam strategi alokasi sederhana.</p>
-<p>Jika ingin mulai dari jalur praktis, halaman <a href="https://pintu.co.id/aplikasi-investasi-emas-crypto">beli emas</a> dapat menjadi titik awal memahami produk dan prosesnya.</p>
-<p>Dari sisi keamanan dan kenyamanan, referensi tentang <a href="https://pintu.co.id/aplikasi-crypto-aman">aplikasi crypto aman</a> penting untuk membangun kepercayaan sebelum menempatkan dana.</p>
-<p>Semua jalur tersebut terintegrasi dalam <a href="https://pintu.co.id">pintu</a> sebagai ekosistem market, edukasi, dan pemantauan aset.</p>
-<figure>
-  <img src="https://images.unsplash.com/photo-1638913662380-979b7f2a4f95?auto=format&fit=crop&w=1200&q=80" alt="Integrasi market, edukasi, dan nabung rutin dalam satu aplikasi" loading="lazy" />
-  <figcaption>Gambar 3. Integrasi akses produk, edukasi, dan rutinitas investasi dalam satu ekosistem.</figcaption>
-</figure>
-<h2>Kesimpulan</h2>
-<p>Investasi digital membuka peluang yang lebih inklusif bagi masyarakat luas. Namun, hasil jangka panjang tidak ditentukan oleh kemudahan akses semata, melainkan oleh kualitas pengalaman belajar. Dengan memulai kecil, konsisten belajar, dan menggunakan platform yang mendukung edukasi, pemula dapat membangun kebiasaan investasi yang lebih sehat dan berkelanjutan.</p>`
+<h2>Practical Application: From Observation to Habit</h2>
+<p>A healthy starting point for beginners is simple observation. You can monitor <a href="https://pintu.co.id/market/nvdax">NVIDIA tokenized stock price</a> to understand global technology-related asset movement.</p>
+<p>For diversification with digital gold, observe <a href="https://pintu.co.id/market/paxg">PAXG price</a> and learn where it fits in a simple allocation strategy.</p>
+<p>If you want a practical starting path, this <a href="https://pintu.co.id/aplikasi-investasi-emas-crypto">buy gold page</a> can help you understand the product journey.</p>
+<p>From a security perspective, this reference about a <a href="https://pintu.co.id/aplikasi-crypto-aman">secure crypto app</a> is useful before allocating funds.</p>
+<p>These paths can be explored through <a href="https://pintu.co.id">Pintu</a> as an integrated market, education, and asset-monitoring ecosystem.</p>
+<h2>Conclusion</h2>
+<p>Digital investing opens broader opportunities for participation. Long-term outcomes, however, are shaped by learning quality and consistent behavior. By starting small, learning continuously, and using platforms that support education, beginners can build healthier and more sustainable investment habits.</p>`
   },
   {
-    title: 'Pusing dan Mual: Kapan Masih Wajar, Kapan Harus ke Dokter?',
-    slug: 'pusing-dan-mual-kapan-harus-ke-dokter',
-    excerpt: 'Panduan memahami penyebab umum pusing disertai mual, langkah awal aman di rumah, dan tanda bahaya.',
+    title: 'Dizziness and Nausea: When Is It Normal and When Should You See a Doctor?',
+    slug: 'dizziness-and-nausea-when-to-see-a-doctor',
+    excerpt: 'A practical guide to common causes of dizziness with nausea, safe first steps at home, and warning signs.',
     featuredImage: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=80',
-    category: 'Gejala Umum',
-    tags: ['pusing', 'mual', 'gejala umum'],
-    author: 'dr. Sobri Tim Editorial',
+    category: 'Common Symptoms',
+    tags: ['dizziness', 'nausea', 'common symptoms'],
+    author: 'dr. Sobri Editorial Team',
     publishDate: '2026-03-01',
     updatedDate: '2026-03-05',
     popularScore: 89,
     faq: [
-      { q: 'Apakah pusing selalu tanda penyakit serius?', a: 'Tidak. Banyak kasus terkait kelelahan, kurang minum, atau telat makan, namun tetap perlu evaluasi bila berulang.' },
-      { q: 'Kapan harus ke IGD?', a: 'Jika pusing disertai bicara pelo, kelemahan satu sisi tubuh, nyeri dada, atau penurunan kesadaran.' }
+      { q: 'Is dizziness always a sign of serious disease?', a: 'No. Many cases are linked to fatigue, dehydration, or delayed meals, but recurrent symptoms should still be evaluated.' },
+      { q: 'When should I go to the ER?', a: 'If dizziness appears with slurred speech, one-sided weakness, chest pain, or decreased consciousness.' }
     ],
-    content: `## Ringkasan\nPusing dan mual adalah keluhan umum. Banyak penyebab ringan, tetapi ada kondisi yang perlu evaluasi cepat.\n\n## Langkah awal\n- Istirahat cukup\n- Minum air putih\n- Hindari berdiri mendadak\n\n## Kapan ke dokter\nBila gejala menetap > 24 jam, sering berulang, atau disertai tanda bahaya.`
+    content: `## Summary\nDizziness and nausea are common complaints. Many causes are mild, but some conditions need urgent evaluation.\n\n## First steps\n- Get adequate rest\n- Drink enough water\n- Avoid standing up suddenly\n\n## When to see a doctor\nIf symptoms persist for more than 24 hours, happen repeatedly, or appear with danger signs.`
   },
   {
-    title: 'Cara Menurunkan Demam Anak di Rumah dengan Aman',
-    slug: 'cara-menurunkan-demam-anak-di-rumah',
-    excerpt: 'Panduan praktis untuk orang tua saat anak demam, termasuk hidrasi, pemantauan suhu, dan tanda rujukan.',
+    title: 'How to Reduce a Child\'s Fever Safely at Home',
+    slug: 'how-to-reduce-child-fever-safely-at-home',
+    excerpt: 'A practical parent guide for managing fever at home, including hydration, temperature monitoring, and referral signs.',
     featuredImage: 'https://images.unsplash.com/photo-1600959907703-c1f3e0d5b6f9?auto=format&fit=crop&w=1200&q=80',
-    category: 'Kesehatan Keluarga',
-    tags: ['demam anak', 'parenting', 'kesehatan keluarga'],
-    author: 'dr. Sobri Tim Editorial',
+    category: 'Family Health',
+    tags: ['child fever', 'parenting', 'family health'],
+    author: 'dr. Sobri Editorial Team',
     publishDate: '2026-02-27',
     updatedDate: '2026-03-02',
     popularScore: 95,
-    faq: [{ q: 'Demam berapa derajat harus ke dokter?', a: 'Umumnya bila >39°C, anak lemas, tidak mau minum, atau ada kejang.' }],
-    content: `## Apa itu demam\nDemam adalah respon tubuh terhadap infeksi. Fokus utama adalah kenyamanan anak dan pencegahan dehidrasi.`
+    faq: [{ q: 'At what temperature should a child see a doctor?', a: 'Usually above 39°C, if the child is lethargic, refuses fluids, or has seizures.' }],
+    content: `## What is fever\nFever is the body\'s response to infection. The main focus is keeping the child comfortable and preventing dehydration.`
   },
   {
-    title: 'Mitos vs Fakta: Minum Es Bikin Flu?',
-    slug: 'mitos-vs-fakta-minum-es-bikin-flu',
-    excerpt: 'Meluruskan miskonsepsi populer tentang es dan flu dengan bahasa sederhana untuk masyarakat umum.',
+    title: 'Myth vs Fact: Does Drinking Ice-Cold Water Cause Flu?',
+    slug: 'myth-vs-fact-does-ice-water-cause-flu',
+    excerpt: 'Clarifying a common misconception about cold drinks and flu in simple language for general readers.',
     featuredImage: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=1200&q=80',
-    category: 'Mitos vs Fakta',
-    tags: ['flu', 'mitos kesehatan'],
-    author: 'dr. Sobri Tim Editorial',
+    category: 'Myth vs Fact',
+    tags: ['flu', 'health myths'],
+    author: 'dr. Sobri Editorial Team',
     publishDate: '2026-02-20',
     updatedDate: '2026-02-21',
     popularScore: 80,
-    faq: [{ q: 'Apa penyebab flu?', a: 'Flu disebabkan virus influenza, bukan suhu minuman.' }],
-    content: `## Fakta utama\nFlu disebabkan infeksi virus. Minuman dingin dapat memicu rasa tidak nyaman pada sebagian orang, tetapi bukan penyebab langsung flu.`
+    faq: [{ q: 'What causes flu?', a: 'Flu is caused by the influenza virus, not by drink temperature.' }],
+    content: `## Key fact\nFlu is caused by viral infection. Cold drinks may cause discomfort in some people, but they are not a direct cause of flu.`
   }
 ];

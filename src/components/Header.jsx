@@ -37,7 +37,7 @@ export default function Header() {
                 {item.label}
               </NavLink>
             ))}
-            <Link to="/blog" className="ml-1 rounded-lg bg-gradient-to-r from-teal-600 to-cyan-600 px-3 py-2 text-sm font-semibold text-white">Mulai Baca</Link>
+            <Link to="/blog" className="ml-1 rounded-lg bg-gradient-to-r from-teal-600 to-cyan-600 px-3 py-2 text-sm font-semibold text-white">Start Reading</Link>
           </div>
         </div>
         {open && (

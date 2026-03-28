@@ -618,5 +618,32 @@ Start with a small amount, monitor priority assets, use platform education featu
     faq: [{ q: 'What causes flu?', a: 'Flu is caused by the influenza virus, not by drink temperature.' }],
     content: `## Key fact\nFlu is caused by viral infection. Cold drinks may cause discomfort in some people, but they are not a direct cause of flu.`
   },
+  {
+    title: 'Sakit Tenggorokan: Panduan Singkat Perawatan di Rumah dan Tanda Bahaya',
+    slug: 'sakit-tenggorokan-perawatan-rumah-dan-tanda-bahaya',
+    excerpt: 'Panduan praktis untuk meredakan sakit tenggorokan di rumah, mengetahui penyebab umum, dan mengenali kapan harus periksa ke dokter.',
+    featuredImage: 'https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=1200&q=80',
+    category: 'Common Symptoms',
+    tags: ['sakit tenggorokan', 'radang tenggorokan', 'common symptoms'],
+    author: 'dr. Sobri Editorial Team',
+    publishDate: '2026-03-28',
+    updatedDate: '2026-03-28',
+    popularScore: 87,
+    faq: [
+      { q: 'Apakah semua sakit tenggorokan perlu antibiotik?', a: 'Tidak. Sebagian besar disebabkan infeksi virus dan tidak membutuhkan antibiotik.' },
+      { q: 'Kapan harus segera ke IGD?', a: 'Jika ada sesak napas, sulit menelan air liur, demam tinggi menetap, atau leher bengkak berat.' }
+    ],
+    content: `## Ringkasan
+Sakit tenggorokan sering disebabkan infeksi virus, iritasi, atau kelelahan suara. Kebanyakan kasus membaik dalam beberapa hari dengan perawatan sederhana.
+
+## Perawatan awal di rumah
+- Istirahat cukup dan minum air hangat
+- Berkumur air garam hangat 2-3 kali sehari
+- Hindari asap rokok dan makanan terlalu pedas
+- Gunakan pereda nyeri sesuai aturan pakai
+
+## Tanda bahaya
+Segera periksa bila keluhan lebih dari 3-5 hari, disertai demam tinggi, nyeri telinga berat, ruam, suara serak lama, atau sulit menelan dan bernapas.`
+  },
   ...generatedOncologyArticles
 ];

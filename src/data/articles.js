@@ -618,6 +618,34 @@ Start with a small amount, monitor priority assets, use platform education featu
     faq: [{ q: 'What causes flu?', a: 'Flu is caused by the influenza virus, not by drink temperature.' }],
     content: `## Key fact\nFlu is caused by viral infection. Cold drinks may cause discomfort in some people, but they are not a direct cause of flu.`
   },
+
+  {
+    title: 'Mitos Kesehatan: Kerokan Bisa Menyembuhkan Masuk Angin?',
+    slug: 'mitos-kesehatan-kerokan-menyembuhkan-masuk-angin',
+    excerpt: 'Membahas fakta medis tentang kerokan, kapan boleh dilakukan untuk kenyamanan, dan tanda bahaya yang butuh pemeriksaan dokter.',
+    featuredImage: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80',
+    category: 'Myth vs Fact',
+    tags: ['mitos kesehatan', 'kerokan', 'masuk angin', 'myth vs fact'],
+    author: 'dr. Sobri Editorial Team',
+    publishDate: '2026-03-29',
+    updatedDate: '2026-03-29',
+    popularScore: 84,
+    faq: [
+      { q: 'Apakah kerokan menyembuhkan penyebab penyakit?', a: 'Tidak selalu. Kerokan lebih banyak memberi rasa nyaman sementara, tetapi tidak mengobati penyebab seperti infeksi virus, maag, atau gangguan lainnya.' },
+      { q: 'Kapan tidak boleh hanya mengandalkan kerokan?', a: 'Jika ada demam tinggi, muntah berulang, nyeri dada, sesak napas, atau keluhan tidak membaik dalam 1-2 hari.' }
+    ],
+    content: `## Ringkasan
+Kerokan adalah tradisi yang umum untuk meredakan pegal atau rasa tidak enak badan. Namun secara medis, kerokan bukan terapi utama untuk menyembuhkan penyebab penyakit.
+
+## Fakta penting
+- Keluhan seperti meriang, kembung, atau pegal bisa disebabkan banyak hal
+- Kerokan dapat memberi rasa hangat dan rileks, tetapi efeknya sementara
+- Tetap perlu evaluasi dokter bila ada tanda bahaya
+
+## Kapan harus periksa
+Segera periksa jika muncul demam tinggi, nyeri dada, sesak napas, muntah terus, BAB hitam, atau lemas berat.`
+  },
+
   {
     title: 'Sakit Tenggorokan: Panduan Singkat Perawatan di Rumah dan Tanda Bahaya',
     slug: 'sakit-tenggorokan-perawatan-rumah-dan-tanda-bahaya',
